@@ -1,0 +1,109 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	background-color: #eeeeee;
+}
+header{
+	background-color: #ccaadd;
+	height:70px;
+}
+#logo{
+	height: 60px;
+	margin-left: 0.3%;
+	margin-top: 0.7%;
+}
+.lien{
+	
+	margin-top: 1.5%;
+	margin-right: 0.4%;
+	float:right;
+}
+#lien_page{
+	text-decoration: none;
+	float:right;
+	margin-bottom: 15px;
+	margin-right: 3.5px;	
+}
+.corps{
+	background-color: #ffffff;
+	margin-top:25px;
+	margin-right: 350px;
+	margin-left: 350px;
+	margin-bottom: 35px;
+	height: 450px;
+	width: 580px;
+	padding-right: 10px;
+	padding-bottom: 0.1px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+form{
+    background-color:#ffaa8e ;
+    margin-left: 100.5px;
+	margin-right: 12.5px;
+	border-radius: 20px;
+	box-shadow: 8px 8px 8px 8px;
+	height:195px;
+	width:280px;
+	padding-left: 3%;
+	padding-right: -2px;
+    padding-top: 2%;
+    padding-bottom:1%;
+	margin-bottom:48px;
+}
+div{
+    padding-bottom: 4%;
+}
+#coord{
+    margin-right: 5%;
+}
+.message{
+	background-color: #ccccfe;
+	width: 560px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	height: 160px;
+}
+.mes{
+	padding-top: 1px;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+}
+.texte{
+	margin-top: -8px;
+	min-width:529px;
+	min-height: 70px;
+	margin-bottom: 10px;
+}
+.hrt{
+	margin-top: 13px;
+	margin-bottom: 3%;
+
+}
+
+
+.pub{
+	background-color: #ccccfe;
+	height:65px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	padding-left:10px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+
+
+
+footer{
+	background-color: #c0c0c0;
+	height:40px;
+}
+footer p{
+	text-align: center;
+}
