@@ -1,0 +1,72 @@
+
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/reserver.css">
+		<title>Profil</title>
+	</head>
+	<body>
+		<header class="en_tete">
+				<img src="images/image_logo.jpg" id="logo"/>
+				<nav class="lien">
+                    <a href="index.html" id="lien_page">  Accueil</a>
+					<a href="voyage.html" id="lien_page"> Voayage</a>
+					<a href="reserver.html" id="lien_page"> Reserver </a>
+				</nav>
+			</header>
+			
+			<section class="corps">
+                <h2> Bienvenu sur notre site web </h2>
+				<form action="PHP/traiter_reservation.php" method="POST">
+                   <div class="h_depart">
+                        <label for="heure depart" id="coord"> Lieu_depart</label>
+                        <select name="heure_depart" id="h_depart">
+                            <option value="default">Heure-depart</option>
+                            <option value="10:00:00">10:00:00</option>
+                            <option value="10:45:00">10:45:00</option>
+                            <option value="11:30:00">11:30:00</option>
+                            <option value="12:15:00">12:15:00</option>
+                            <option value="13:00:00">13:00:00</option>
+                        </select><br/>
+                   </div> 
+                   <div class="l_depart">
+                        <label for="heure depart" id="coord"> Lieu_depart</label>
+                        <select name="lieu_depart" class="h_depart">
+                            <option value="default">Lieu-depart</option>
+                            <option value="Douala">Douala</option>
+                            <option value="Yaoundé">Yaoundé</option>
+                            <option value="Dschang">Dschang</option>
+                            <option value="Edéa">Edéa</option>
+                            <option value="Ngaoundéré">Ngaoundéré</option>
+                        </select><br/>
+                   </div>
+                    <div class="l_arrive">
+                        <label for="lieu_arrivee" id="coord"> Lieu_arrivée</label>
+                        <select name="lieu_arrive" class="h_depart">
+                            <option value="default">Lieu_arrivée</option>
+                            <option value="Bafang">Bafang</option>
+                            <option value="Bouda">Bouda</option>
+                            <option value="Nkongsamba">Nkonsamba</option>
+                            <option value="Melong">Melon</option>
+                            <option value="Douala">Douala</option>
+                        </select><br/>
+                    </div>
+                    <div class="type">
+                        <label for="type_voyage" id="coord"> type voyage</label>
+                        <select name="type" class="h_depart">
+                            <option value="default">type_voyage</option>
+                            <option value="Classique 5000FCFA">Classique 5000FCFA </option>
+                            <option value="VIP 8000FCFA"> VIP 8000FCFA</option>
+                            <option value="Haut standar 12000FCFA">Haut_standard 12000FCFA</option>
+                        </select><br/>
+                    </div>
+                    <input type="submit" class="btn btn-primary display-4" value="Envoyer">
+                    <input type="reset" class="btn btn-primary display-4" value="Annuler">
+                </form>
+			</section>
+		<footer class="pied">
+			<p> copyright &copy; openNetwork 2016 Tous droits réservés</p>
+		</footer>
+	</body>
+	</HTML>
